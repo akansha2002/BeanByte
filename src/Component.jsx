@@ -11,7 +11,7 @@ function App() {
     fetch(`https://jsonplaceholder.typicode.com/posts/${currentIndex + 1}`)
       .then((response) => response.json())
       .then((result) => {
-        // Delaing displaying data in the console for 1 second
+        // Delaying displaying data in the console for 1 second
         setTimeout(() => {
           console.log(result);
         }, 1000);
